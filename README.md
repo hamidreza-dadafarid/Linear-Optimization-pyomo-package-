@@ -23,7 +23,7 @@ The following sites provide comprehensive information about the pyomo library:
 
 https://pyomo.readthedocs.io/en/stable/working_models.html
 
-## Package Installation:
+## Package Installation
 If you use `jupyter notebook`, run this command in `conda prompt`:
 ```
 conda install pyomo 
