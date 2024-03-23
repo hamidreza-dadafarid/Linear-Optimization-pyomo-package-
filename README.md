@@ -14,7 +14,7 @@ Although a number of packages such as PuLP, APLEpy, Openopt also provide the pos
 * Stochastic programs
 * Dynamic problems with differential algebraic equations
 
-pyomo does not solve the optimization models, but creates the appropriate input for the solvers and leaves the solving process to the solvers, and then reports the answer that the solver returns. It is possible to communicate with different servers in pyomo, although these servers must be installed first and activated if a license is needed. GLPK is an open source solver that can solve LP and MILP problems, and IPOPT is also used to solve nonlinear problems.
+Pyomo does not solve the optimization models, but creates the appropriate input for the solvers and leaves the solving process to the solvers, and then reports the answer that the solver returns. It is possible to communicate with different servers in pyomo, although these servers must be installed first and activated if a license is needed. GLPK is an open source solver that can solve LP and MILP problems, and IPOPT is also used to solve nonlinear problems.
 The following sites provide comprehensive information about the pyomo library:
 
 [Pyomo website](http://www.pyomo.org)
@@ -28,7 +28,7 @@ If you use `jupyter notebook`, run this command in `conda prompt`:
 ```
 conda install pyomo 
 ```
-aslo run this command to install `glpk` solver:
+Aslo run this command to install `glpk solver`:
 ```
 conda install –c conda-forge glpk
 ```
